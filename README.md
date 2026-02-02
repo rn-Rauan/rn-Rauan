@@ -42,7 +42,7 @@ Desenvolvedor com experiência em **desenvolvimento web e mobile**, **APIs RESTf
 
 ### 🤖 [AI Assistant for Teacher]([https://github.com/rn-Rauan/AI-ASSISTANT-FOR-TEACHER.git)]
 Plataforma inteligente que auxilia professores na criação automatizada de materiais didáticos alinhados à BNCC. Utiliza IA generativa e RAG para gerar planos de aula, atividades e slides.
-https://github.com/user-attachments/assets/cbfc7a62-64aa-4280-92c9-76041bd253b2
+<video src="https://github.com/user-attachments/assets/cbfc7a62-64aa-4280-92c9-76041bd253b2" width="100%" controls></video>
 
 **Stack:** TypeScript • React • Node.js • Fastify • Prisma • OpenAI • PostgreSQL  
 🏆 *Desenvolvido para o Hackathon IFPI 2026*
