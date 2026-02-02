@@ -40,7 +40,7 @@ Desenvolvedor com experiência em **desenvolvimento web e mobile**, **APIs RESTf
 
 ## 🌟 Projetos em Destaque
 
-### 🤖 [AI Assistant for Teacher][(https://github.com/rn-Rauan/AI-ASSISTANT-FOR-TEACHER.git)]
+### 🤖 ![AI Assistant for Teacher](https://github.com/rn-Rauan/AI-ASSISTANT-FOR-TEACHER.git)
 Plataforma inteligente que auxilia professores na criação automatizada de materiais didáticos alinhados à BNCC. Utiliza IA generativa e RAG para gerar planos de aula, atividades e slides.
 
 **Stack:** TypeScript • React • Node.js • Fastify • Prisma • OpenAI • PostgreSQL  
@@ -50,7 +50,7 @@ Plataforma inteligente que auxilia professores na criação automatizada de mate
 
 ---
 
-### 📱 [Catalogo Amin][(https://github.com/MaYaOlly/CatalogoAmimMobile.git)]
+### 📱 ![Catalogo Amin](https://github.com/MaYaOlly/CatalogoAmimMobile.git)
 Este projeto consiste no desenvolvimento de um aplicativo móvel de catálogo interativo para a empresa Amim Doces e Salgados, uma microempresa localizada em Piripiri – PI, atuante no ramo de panificação e confeitaria artesanal desde 2014.
 
 **Stack:** React Native • TypeScript • Node.js • PostgreSQL • Fastify
