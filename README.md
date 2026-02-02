@@ -3,6 +3,8 @@
 🎓 **Estudante de Análise e Desenvolvimento de Sistemas** (4º Módulo)  
 💻 **Desenvolvedor Full Stack** | Apaixonado por construir soluções eficientes e escaláveis
 
+
+
 ---
 
 ## 🚀 Sobre Mim
@@ -38,18 +40,19 @@ Desenvolvedor com experiência em **desenvolvimento web e mobile**, **APIs RESTf
 
 ## 🌟 Projetos em Destaque
 
-### 🤖 [AI Assistant for Teacher](https://github.com/SEU-USUARIO/AI-ASSISTANT-FOR-TEACHER)
+### 🤖 [AI Assistant for Teacher]([https://github.com/rn-Rauan/AI-ASSISTANT-FOR-TEACHER.git)]
 Plataforma inteligente que auxilia professores na criação automatizada de materiais didáticos alinhados à BNCC. Utiliza IA generativa e RAG para gerar planos de aula, atividades e slides.
+https://github.com/user-attachments/assets/cbfc7a62-64aa-4280-92c9-76041bd253b2
 
 **Stack:** TypeScript • React • Node.js • Fastify • Prisma • OpenAI • PostgreSQL  
 🏆 *Desenvolvido para o Hackathon IFPI 2026*
 
 ---
 
-### 📱 [Seu Próximo Projeto]
-Breve descrição do projeto destacando a solução e tecnologias principais.
+### 📱 [Catalogo Amin]([https://github.com/MaYaOlly/CatalogoAmimMobile.git)]
+Este projeto consiste no desenvolvimento de um aplicativo móvel de catálogo interativo para a empresa Amim Doces e Salgados, uma microempresa localizada em Piripiri – PI, atuante no ramo de panificação e confeitaria artesanal desde 2014.
 
-**Stack:** React Native • TypeScript • Node.js • PostgreSQL
+**Stack:** React Native • TypeScript • Node.js • PostgreSQL • Fastify
 
 ---
 
@@ -62,7 +65,7 @@ Breve descrição do projeto destacando a solução e tecnologias principais.
 
 ## 📫 Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/rauan-bandeira-525a73322)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seuemail@exemplo.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://seuportfolio.com)
 
