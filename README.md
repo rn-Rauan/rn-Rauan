@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou Rauan
 
-🎓 **Estudante de Análise e Desenvolvimento de Sistemas** (4º Módulo)  
+🎓 **Estudante de Análise e Desenvolvimento de Sistemas** (5º Módulo)  
 💻 **Desenvolvedor Full Stack** | Apaixonado por construir soluções eficientes e escaláveis
 
 
