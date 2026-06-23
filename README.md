@@ -3,13 +3,13 @@
 **Desenvolvedor Backend Júnior** em formação em **Análise e Desenvolvimento de Sistemas** pelo IFPI.
 Tenho foco em **TypeScript, Node.js, NestJS, PostgreSQL e APIs REST**, com interesse em arquitetura de software, SaaS, testes automatizados e desenvolvimento de produtos digitais.
 
-Atualmente estou desenvolvendo o **Movy API**, um backend SaaS multi-tenant para gestão de transporte universitário/intermunicipal, utilizado como meu TCC.
+Atualmente estou desenvolvendo o **Movy**, um sistema SaaS multi-tenant para gestão e reserva de viagens de transporte universitário/intermunicipal, composto por **backend/API** e **cliente web mobile-first**.
 
 ---
 
 ## Sobre mim
 
-Sou desenvolvedor júnior com experiência prática em projetos acadêmicos e aplicados, envolvendo backend, mobile, IA generativa e sistemas web.
+Sou desenvolvedor júnior com experiência prática em projetos acadêmicos e aplicados, envolvendo backend, frontend, mobile, IA generativa e sistemas web.
 
 Tenho trabalhado principalmente com:
 
@@ -19,7 +19,9 @@ Tenho trabalhado principalmente com:
 * Autenticação, autorização, JWT, RBAC e multi-tenancy
 * Testes automatizados com Jest e Supertest
 * Documentação de APIs com Swagger/OpenAPI
-* Desenvolvimento assistido por IA com ferramentas como Claude Code, GitHub Copilot e Lovable
+* Desenvolvimento frontend com React, TypeScript e arquitetura modular
+* Integração entre frontend e backend
+* Desenvolvimento assistido por IA com Claude Code, Lovable e Claude Design
 
 ---
 
@@ -39,6 +41,8 @@ Tenho trabalhado principalmente com:
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge\&logo=expo\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
+![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=for-the-badge\&logo=react-query\&logoColor=white)
 
 ### Qualidade, ferramentas e práticas
 
@@ -46,19 +50,28 @@ Tenho trabalhado principalmente com:
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger/OpenAPI-85EA2D?style=for-the-badge\&logo=swagger\&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge\&logo=cloudflare\&logoColor=white)
 
 ---
 
 ## Projetos em destaque
 
-### 🚍 Movy API
+### 🚍 Movy
 
-**Backend SaaS multi-tenant para gestão de transporte universitário/intermunicipal**
+**Sistema SaaS multi-tenant para gestão e reserva de viagens de transporte universitário/intermunicipal**
 Projeto em fase final de desenvolvimento como TCC.
 
-O Movy API é uma aplicação backend voltada para organizações que gerenciam viagens, motoristas, veículos, inscrições, pagamentos, planos e assinaturas.
+O Movy é um sistema completo para organizações que gerenciam transporte universitário/intermunicipal, incluindo passageiros, motoristas, administradores, veículos, viagens, reservas, pagamentos, planos e assinaturas.
 
-**Principais pontos técnicos:**
+O sistema é composto por:
+
+* **Backend/API:** desenvolvido com NestJS, TypeScript, Prisma e PostgreSQL
+* **Cliente Web:** Mobile-first desenvolvido com React, TypeScript, TanStack Start, TanStack Router, Tailwind CSS e shadcn/ui
+* **Integração frontend/backend:** consumo da API, autenticação, controle de acesso e fluxos separados por perfil de usuário
+
+#### Backend/API
+
+Principais pontos técnicos:
 
 * API REST com NestJS, TypeScript, Prisma e PostgreSQL
 * Arquitetura baseada em Clean Architecture e DDD
@@ -69,7 +82,33 @@ O Movy API é uma aplicação backend voltada para organizações que gerenciam 
 * Documentação com Swagger/OpenAPI
 * Ambiente com Docker e docker-compose
 
-**Stack:** NestJS · TypeScript · Prisma · PostgreSQL · JWT · Jest · Docker · Swagger
+#### Cliente Web
+
+Principais pontos técnicos:
+
+* PWA mobile-first com React 19 e TypeScript em modo strict
+* Roteamento com TanStack Start e TanStack Router
+* Interface com Tailwind CSS v4 e shadcn/ui
+* Validação com Zod
+* Estrutura baseada em feature modules
+* Rotas como thin controllers e lógica concentrada em hooks de feature
+* Camada de services para chamadas à API, seguindo repository pattern
+* Controle de acesso por papéis: passageiro, motorista e admin
+* Guards por rotas públicas, autenticadas, administrativas e de motorista
+* Renovação automática de token no cliente HTTP
+* Deploy preparado para Cloudflare Workers via Wrangler
+
+#### Desenvolvimento assistido por IA
+
+O cliente web do Movy foi desenvolvido com apoio de ferramentas modernas de desenvolvimento assistido por IA, incluindo:
+
+* Claude Code
+* Lovable
+* Claude Design
+
+Essas ferramentas foram utilizadas para acelerar prototipação, implementação de interface, organização de padrões e refinamento da integração com a API.
+
+**Stack:** NestJS · TypeScript · Prisma · PostgreSQL · JWT · Jest · Docker · Swagger · React · TanStack Start · TanStack Router · Tailwind CSS · shadcn/ui · Cloudflare Workers
 
 ---
 
@@ -79,7 +118,7 @@ Aplicação criada para auxiliar professores na geração automatizada de materi
 
 O projeto utiliza IA generativa e RAG para recuperar informações da BNCC e diretrizes educacionais como contexto antes da geração dos materiais.
 
-**Principais pontos técnicos:**
+Principais pontos técnicos:
 
 * Backend com Node.js, TypeScript e Fastify
 * Integração com LLMs
@@ -100,7 +139,7 @@ Solução de catálogo digital desenvolvida para uma microempresa do ramo de pan
 
 O projeto conta com aplicativo mobile e API REST para gerenciamento de produtos e apoio ao processo de pedidos.
 
-**Principais pontos técnicos:**
+Principais pontos técnicos:
 
 * API REST com Node.js, TypeScript e Fastify
 * Persistência com PostgreSQL e Prisma ORM
@@ -127,6 +166,8 @@ Atualmente venho aprofundando meus estudos em:
 * Testes automatizados
 * Segurança em APIs
 * Desenvolvimento backend com NestJS
+* Integração frontend/backend
+* Desenvolvimento frontend com React e TanStack
 * Desenvolvimento assistido por IA
 * Modelagem de produtos digitais
 
