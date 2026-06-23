@@ -110,6 +110,9 @@ Essas ferramentas foram utilizadas para acelerar prototipação, implementação
 
 **Stack:** NestJS · TypeScript · Prisma · PostgreSQL · JWT · Jest · Docker · Swagger · React · TanStack Start · TanStack Router · Tailwind CSS · shadcn/ui · Cloudflare Workers
 
+🔗 [Repositório](https://github.com/rn-Rauan/movy-api)
+🔗 [Repositório](https://github.com/rn-Rauan/movy_web)
+
 ---
 
 ### 🤖 PedagogIA — Sistema de Apoio Docente com IA
